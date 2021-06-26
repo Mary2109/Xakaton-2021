@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Турагенство JScraft</title>
+    <meta charset="utf-8">
+        <style type="text/css">
+        .mainmenu {
+    display: flex;
+}
+body{
+ 	background-color: #E0FFFF;
+ }
+h1{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(128, 13, 38);
+}
+.main-content {
+    background: #fff;
+    width: 91%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E0FFFF;
+    
+}
+.menu .slot{
+	width: 120px;
+	height: 120px;
+	background-color: #5EE8E1;
+	border-radius: 6px;
+	border: 2px double #F14141;
+}
+.slot_profile{
+    width: 125px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 2px double #F14141;
+}
+.slot_profile:hover{
+    background-color: #F14141;
+    border-radius: 6px;
+}
+.profile_img{
+    width: 90%;
+}
+.profile_img:hover{
+    display: none;
+}
+.profile_img_reverse{
+    display: none;
+    width: 90%;
+
+}
+.slot_profile:hover .profile_img_reverse{
+    display: block;
+}
+.slot_profile:hover .profile_img{
+    display: none;
+}
+.slot_exit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 2px double #F14141;
+}
+.exit_reverse{
+    display: none;
+}
+.exit:hover{
+display: none;
+
+}
+.slot_exit:hover .exit_reverse{
+    display: block;
+}
+.slot_exit:hover .exit{
+    display: none;
+}
+.slot_exit:hover{
+    background-color: #F14141;
+    border-radius: 6px;
+}
+.menu{
+	background: #5EE8E1;
+	width: 168px;
+	height: calc(100vh - 107px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 1;
+}
+.exit{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.city {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    background: #5EE8E1;
+    width: 100%;
+    height: 107px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logotype {
+    margin-left: 24px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+span {
+    color: red;
+}
+p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #F14141;
+    font-style: italic;
+}
+.text-right {
+    font-size: 24px;
+    margin-right: 30px;
+    margin-top: 34px;
+    font-family: sans-serif;
+}
+
+.menu .slot {
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.menu {
+    background: #5EE8E1;
+    width: 9%;
+    height: calc(100vh - 107px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic {
+    border: solid black 2px;
+    height: 275px;
+}
+.profilepic{
+	width: 120px;
+	height: 120px;
+
+}
+.logo{
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	top: 10px;
+	z-index: 100;
+}
+#bottom_site
+{
+    background-color: lightseagreen; 
+    text-align: center;
+    transform: scale(1.09);
+    width: 95.5%;
+
+}
+
+#bottom_site:hover
+{
+    height: 83px;
+    padding-top: 50px;
+
+
+}
+#bottom_site:hover .made_for, h1
+{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.made_for
+{
+    color: yellow;
+    text-align: center;
+    margin-right: 55px;
+    margin-bottom: 20px;
+}
+
+.made_sec
+{
+    height:  25px;
+    background-color: black;
+    margin-bottom: 10px;
+}	
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+		<a href="index.html" class="logotype" ><img src="images/logo.png" class="logo">
+		</a>
+        <p class="text-right">лучший сайт, чтобы запоминать свои моменты жизни</p>
+    </div>
+    <div class="mainmenu">	
+        <div class="menu">
+        <div class="slot profile">
+            <a href="#"><img src="images/profile.svg" class="profilepic"></a>
+        </div>
+        <div class="slot_exit">
+        	<a class="exit" href="#"><img src="images/exit.svg"></a>
+            <a class="exit_reverse" href="#"><img src="images/revers.svg"></a>
+        </div>
+    </div>
+    <div class="main-content">
+        <h1>Калгари</h1>
+        <div class="city">
+            <img class="pic" src="images/calgary3.jpg">
+            <p>Десятидневная Калгари-Стампед - изюминка лета Калгари, укрепившая репутацию города Альберты как «город ковбоев». Это знаменитое родео, проведенное в июле, включает в себя всевозможные развлечения в стиле ковбоя и блинчики. Население одевается соответственно, и синие джинсы и ярко окрашенные Стетсоны становятся порядком дня. Мероприятия включают в себя соревнования по родео, выездные гонки на выездных поездах, настоящую деревню Первых Наций, а также сельскохозяйственные выставки.</p>
+        </div>
+        <div class="city">
+            <img class="pic" src="images/calgary1.jpg">
+            <p>Калгари - город в западной канадской провинции Альберта. Он расположен в месте слияния рек Боу и Элбоу на юге провинции, в предгорьях и прериях, примерно в 80 км (50 миль) к востоку от передних хребтов Канадских Скалистых гор, примерно в 299 км ( 186 миль) к югу от столицы провинции Эдмонтон и примерно в 240 км (150 миль) к северу от границы между Канадой и США. Город является якорем на южном конце городской зоны, определенной Статистическим управлением Канады, коридора Калгари-Эдмонтон. В начале 2021 года в столичном районе Калгари проживало около 1581000 человек, что делает его самым густонаселенным городом Альберты и вторым по численности населения в западной Канаде. В 2016 году городское население Калгари составляло 1392609 человек, что делает его четвертым по величине мегаполисом (CMA) в Канаде, хотя с автономным населением в 1239220 человек город Калгари был третьим по величине городом Канады в 2016 году. Экономика Калгари включает в себя деятельность в сферах энергетики, финансовых услуг, кино и телевидения, транспорта и логистики, технологий, производства, авиакосмической промышленности, здравоохранения и благополучия, розничной торговли и туризма. Столичный регион Калгари занимает второе место в Канаде по количеству головных офисов среди 800 крупнейших корпораций страны. В 2015 году в Калгари было самое большое количество миллионеров на душу населения среди всех крупных канадских городов. В 1988 году он стал первым канадским городом, принимающим Зимние Олимпийские игры. The Economist Intelligence Unit оценил Калгари как наиболее пригодный для жизни город в Северной Америке как в 2018, так и в 2019 году. Калгари входил в пятерку лучших претендентов на этот титул в течение последних 10 лет.</p>
+        </div>
+        <div class="city">
+            <img class="pic" src="images/calgary2.jpg">
+            <p>Остров Принс-Айленд - большое зеленое пространство в центре Калгари, установленное на острове в реке Лук. Парк примыкает к Рынок Eau Claire, и многие туристы совершают совместный визит в эти две достопримечательности. Парк предлагает пешеходные и велосипедные площадки, а также концерты на свежем воздухе и игры в летние месяцы.</p>
+        </div>
+        
+    </div>
+    </div>
+    	<section class="made_sec">
+        <div class="made_for"> Сделано для: Itgenio 2021 </div>
+    </section>
+	<section id="bottom_site">
+        <br<h1>свяжитесь с нами</h1>
+        <br> 123-456-7890
+        <br> 123-456-7890
+        <br> example@yahoo.com
+    </section>
+</body>
+</html>
